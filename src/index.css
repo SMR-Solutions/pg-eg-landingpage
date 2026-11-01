@@ -52,25 +52,34 @@
   animation: pulseGlow 6s ease-in-out infinite;
 }
 
-/* ─── Slow Alternating Bouncing Animations ─── */
-@keyframes slowBounce {
+/* ─── Smooth Alternating In & Out Zoom Animation ─── */
+@keyframes inOutScale {
   0%, 100% {
-    transform: translateY(0);
+    transform: scale(1);
     filter: drop-shadow(0 0 0 transparent);
   }
   50% {
-    transform: translateY(-8px);
-    filter: drop-shadow(0 8px 16px rgba(45, 198, 83, 0.2));
+    transform: scale(1.07);
+    filter: drop-shadow(0 6px 24px rgba(45, 198, 83, 0.4));
   }
 }
 
-.animate-bounce-slow-1 {
+.animate-in-out-1 {
   display: inline-block;
-  animation: slowBounce 3.6s ease-in-out infinite;
+  transform-origin: center;
+  animation: inOutScale 3.6s ease-in-out infinite;
 }
 
-.animate-bounce-slow-2 {
+.animate-in-out-2 {
   display: inline-block;
-  animation: slowBounce 3.6s ease-in-out infinite;
+  transform-origin: center;
+  animation: inOutScale 3.6s ease-in-out infinite;
   animation-delay: 1.8s;
+}
+
+@media (min-width: 1024px) {
+  .animate-in-out-1,
+  .animate-in-out-2 {
+    transform-origin: left center;
+  }
 }

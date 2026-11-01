@@ -40,7 +40,6 @@ export const Navbar: React.FC<Props> = ({ onOpenInstall }) => {
           <a href="#features" className="hover:text-[#2dc653] transition-colors">Features</a>
           <a href="#for-owners" className="hover:text-[#2dc653] transition-colors">For PG Owners</a>
           <a href="#localities" className="hover:text-[#2dc653] transition-colors">Bangalore Hubs</a>
-          <a href="#install" className="hover:text-[#2dc653] transition-colors">How to Install</a>
           <a href="#faq" className="hover:text-[#2dc653] transition-colors">FAQ</a>
         </nav>
 
@@ -98,13 +97,6 @@ export const Navbar: React.FC<Props> = ({ onOpenInstall }) => {
             className="block py-2 text-gray-300 font-medium hover:text-[#2dc653]"
           >
             Bangalore Hubs
-          </a>
-          <a
-            href="#install"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block py-2 text-gray-300 font-medium hover:text-[#2dc653]"
-          >
-            How to Install
           </a>
           <div className="pt-2 flex flex-col gap-2">
             <button

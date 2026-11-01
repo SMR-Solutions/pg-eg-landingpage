@@ -7,7 +7,7 @@ export const BangaloreHotspots: React.FC = () => {
   const hotspots = [
     {
       name: "Srinivasapura & Kengeri",
-      url: `${APP_URL}/find-pg?q=Srinivasapura`,
+      url: `${APP_URL}/bangalore/pg-in-srinivasapura`,
       badge: "🚀 High Priority Hub",
       rent: "₹5,500+",
       desc: "Srinivasapura, Kengeri Satellite Town, Mysore Road. Student PGs near JSSATE, RVC & Arts colleges.",
@@ -15,7 +15,7 @@ export const BangaloreHotspots: React.FC = () => {
     },
     {
       name: "JSS Engineering (JSSATE)",
-      url: `${APP_URL}/find-pg?q=JSS`,
+      url: `${APP_URL}/bangalore/pg-near-jss-college`,
       badge: "🎓 Campus Special",
       rent: "₹5,800+",
       desc: "Srinivasapura & Uttarahalli-Kengeri Road. Verified boys & ladies PGs with 3-times hygienic meals.",
@@ -23,7 +23,7 @@ export const BangaloreHotspots: React.FC = () => {
     },
     {
       name: "RV College of Engg (RVCE)",
-      url: `${APP_URL}/find-pg?q=RVCE`,
+      url: `${APP_URL}/bangalore/pg-near-rvce`,
       badge: "🎓 Top College Hub",
       rent: "₹6,500+",
       desc: "Mysore Road, Pattanagere Metro. Walk to RVCE campus with high-speed WiFi and laundry.",
@@ -31,7 +31,7 @@ export const BangaloreHotspots: React.FC = () => {
     },
     {
       name: "Kengeri & Arts Colleges",
-      url: `${APP_URL}/find-pg?q=Kengeri`,
+      url: `${APP_URL}/bangalore/pg-in-kengeri`,
       badge: "⚡ Affordable PGs",
       rent: "₹5,000+",
       desc: "Near Bangalore University Jnana Bharathi, Arts & Commerce colleges, Kommaghatta Road.",

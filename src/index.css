@@ -51,3 +51,26 @@
 .animate-pulse-glow {
   animation: pulseGlow 6s ease-in-out infinite;
 }
+
+/* ─── Slow Alternating Bouncing Animations ─── */
+@keyframes slowBounce {
+  0%, 100% {
+    transform: translateY(0);
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  50% {
+    transform: translateY(-8px);
+    filter: drop-shadow(0 8px 16px rgba(45, 198, 83, 0.2));
+  }
+}
+
+.animate-bounce-slow-1 {
+  display: inline-block;
+  animation: slowBounce 3.6s ease-in-out infinite;
+}
+
+.animate-bounce-slow-2 {
+  display: inline-block;
+  animation: slowBounce 3.6s ease-in-out infinite;
+  animation-delay: 1.8s;
+}

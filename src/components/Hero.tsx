@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Smartphone, Compass, ShieldCheck, Zap, Building2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Smartphone, Compass, Video, Navigation, Building2, ChevronLeft, ChevronRight, PhoneCall } from 'lucide-react';
 
 interface Props {
   onOpenInstall: () => void;
@@ -63,7 +63,7 @@ export const Hero: React.FC<Props> = ({ onOpenInstall }) => {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-gray-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-              <strong>PG-EG (PGEG)</strong> gives college students and IT professionals instant access to verified PGs across Bangalore — including Srinivasapura, Kengeri, JSSATE, RVCE, Koramangala, and Bellandur. Featuring 3D room tours, transparent rents, and direct owner WhatsApp contacts with zero brokerage.
+              <strong>PG-EG (PGEG)</strong> helps students and working professionals find the nearest and best PGs in a flash. Check live distance from your college or office, view authentic room photos &amp; live videos, verify food amenities, transparent rent rates, and get 1-tap directions or direct manager contacts.
             </p>
 
             {/* CTAs */}
@@ -75,7 +75,7 @@ export const Hero: React.FC<Props> = ({ onOpenInstall }) => {
                 className="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-[#2dc653] text-black font-extrabold text-sm sm:text-base flex items-center justify-center gap-2.5 shadow-xl shadow-[#2dc653]/30 hover:bg-[#25a845] hover:-translate-y-0.5 transition-all cursor-pointer"
               >
                 <Compass className="w-5 h-5 stroke-[2.5]" />
-                <span>Find PG Near Me Now</span>
+                <span>Find Nearest PG in a Flash</span>
               </a>
 
               <button
@@ -90,15 +90,19 @@ export const Hero: React.FC<Props> = ({ onOpenInstall }) => {
             {/* Quick Badges */}
             <div className="pt-2 flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4 text-xs font-semibold text-gray-400">
               <span className="flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-[#2dc653]" />
-                Direct Owner Phone &amp; WhatsApp
+                <Navigation className="w-4 h-4 text-[#2dc653]" />
+                Real Distance &amp; Directions
               </span>
               <span className="flex items-center gap-1.5">
-                <Zap className="w-4 h-4 text-amber-400" />
-                Zero Brokerage Fees
+                <Video className="w-4 h-4 text-rose-400" />
+                Live Video &amp; Room Photos
               </span>
               <span className="flex items-center gap-1.5">
-                <Building2 className="w-4 h-4 text-blue-400" />
+                <PhoneCall className="w-4 h-4 text-blue-400" />
+                Direct Manager Contacts
+              </span>
+              <span className="flex items-center gap-1.5">
+                <Building2 className="w-4 h-4 text-amber-400" />
                 3D Interactive Building View
               </span>
             </div>

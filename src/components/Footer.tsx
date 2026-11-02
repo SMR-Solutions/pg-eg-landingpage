@@ -25,7 +25,7 @@ export const Footer: React.FC<Props> = ({ onOpenInstall }) => {
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
-              Bangalore&apos;s smart PG accommodation finder &amp; 3D digital property management platform. Connect directly with owners with zero brokerage.
+              Bangalore&apos;s smart PG finder for students &amp; working professionals. Find nearest and best PGs in a flash with live distance, real room photos, live videos, transparent rent rates, amenities, and direct manager contacts.
             </p>
             <div className="flex gap-3 pt-2">
               <button

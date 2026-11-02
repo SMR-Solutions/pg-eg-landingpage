@@ -7,11 +7,11 @@ export const FaqSection: React.FC = () => {
   const faqs = [
     {
       q: "What is PG-EG (also searched as PGEG, PG EG, or EG-PG)?",
-      a: "PG-EG (PGEG) is Bangalore's dedicated smart paying guest (PG) discovery and digital property management platform. It allows college students and working professionals to find verified rooms directly with building managers without brokers, and gives PG owners a 3D building visualizer with automated rent collection tools.",
+      a: "PG-EG (PGEG) is an application designed for students and working professionals to find the nearest and best paying guest accommodations in Bangalore within a flash. It gives you authentic PG details including live distance, photos, live video, room sharing rent rates, verified amenities, direct PG manager contacts, and 1-tap directions.",
     },
     {
-      q: "How does the Zero Brokerage policy work?",
-      a: "Unlike traditional property agents or broker portals who charge 15 days or 1 month rent as commission, PG-EG is 100% free for room seekers. You directly view the building manager's phone number and WhatsApp to discuss rent, deposit, and availability.",
+      q: "What details does PG-EG provide for each PG?",
+      a: "Every listing on PG-EG shows: (1) Verified PG Name, (2) Exact live distance from your current location, (3) Real room & washroom photos, (4) 5-10 second live location video, (5) Transparent monthly rents for 1, 2, 3, 4 sharing, (6) 3-times daily food & amenities, (7) Direct PG manager phone & WhatsApp contacts, and (8) One-tap Google Maps directions straight to the PG gate.",
     },
     {
       q: "How do I install the PG-EG PWA app on Android or iPhone?",

@@ -1,43 +1,43 @@
 import React from 'react';
-import { Layers, ShieldCheck, MapPin, MessageSquare, Utensils, Wifi } from 'lucide-react';
+import { Layers, Video, Navigation, MessageSquare, Utensils, Tag } from 'lucide-react';
 
 export const Features: React.FC = () => {
   const featuresList = [
     {
-      icon: Layers,
-      color: "text-[#2dc653] bg-[#2dc653]/15",
-      title: "Interactive 3D Building Visualizer",
-      description: "Experience your PG property digitally before stepping inside. Inspect floors, rooms, and bed layouts in stunning 3D.",
-    },
-    {
-      icon: ShieldCheck,
-      color: "text-amber-400 bg-amber-400/15",
-      title: "100% Zero Brokerage Guarantee",
-      description: "No brokers, no agents, and no surprise commission fees. Contact verified building managers directly with transparent terms.",
-    },
-    {
-      icon: MapPin,
+      icon: Navigation,
       color: "text-blue-400 bg-blue-500/15",
-      title: "Real GPS & Walking Distance Filter",
-      description: "Find PGs within walking distance of Bangalore's top IT parks (RMZ Ecospace, Manyata) and colleges (Christ, PES, BMSCE).",
+      title: "Live Distance & 1-Tap Directions",
+      description: "Calculates exact walking distance from your college or office. Tap once for turn-by-turn navigation straight to the PG entrance.",
+    },
+    {
+      icon: Video,
+      color: "text-rose-400 bg-rose-400/15",
+      title: "Live Location Video & Real Photos",
+      description: "Watch authentic 5-10 second live videos of the building and street, plus real photos of bedrooms, washrooms, and balconies.",
+    },
+    {
+      icon: Tag,
+      color: "text-amber-400 bg-amber-400/15",
+      title: "Transparent Rent & Sharing Rates",
+      description: "Clear monthly rates for 1-sharing, 2-sharing, 3-sharing, and 4-sharing beds so you know exact prices before you visit.",
     },
     {
       icon: MessageSquare,
-      color: "text-emerald-400 bg-emerald-400/15",
-      title: "One-Tap WhatsApp & Direct Call",
-      description: "Enquire instantly via WhatsApp or phone call. Confirm bed availability, room sharing, and deposit policies in seconds.",
+      color: "text-[#2dc653] bg-[#2dc653]/15",
+      title: "Direct PG Manager Contacts",
+      description: "Call or WhatsApp the on-site PG manager directly with one tap to confirm vacancy, room sharing, and deposit policies.",
     },
     {
       icon: Utensils,
-      color: "text-rose-400 bg-rose-400/15",
-      title: "Authentic Food & Hygiene Details",
-      description: "Check complete 3-times meal plans (North Indian & South Indian), clean filtered RO water, and daily housekeeping standards.",
+      color: "text-emerald-400 bg-emerald-400/15",
+      title: "Food Menus & Verified Amenities",
+      description: "Check 3-times daily meal details (North & South Indian), high-speed WiFi, power backup, washing machines, and security curfews.",
     },
     {
-      icon: Wifi,
+      icon: Layers,
       color: "text-purple-400 bg-purple-400/15",
-      title: "High-Speed WiFi & Power Backup",
-      description: "Designed for work-from-home engineers and studying college students with dedicated 100+ Mbps fiber connections.",
+      title: "Interactive 3D Building Visualizer",
+      description: "Inspect floors, room layouts, and vacant bed positions digitally in 3D right from your phone before booking.",
     },
   ];
 
@@ -48,13 +48,13 @@ export const Features: React.FC = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2dc653]/10 border border-[#2dc653]/30 text-xs font-bold text-[#2dc653] uppercase tracking-wider">
-            Why Choose PG-EG
+            All PG Details in a Flash
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
-            Built for Modern Living in Bangalore
+            Find the Nearest &amp; Best PG in Seconds
           </h2>
           <p className="text-gray-300 text-base sm:text-lg">
-            Say goodbye to endless physical searches and fake broker listings. PG-EG simplifies finding and managing your stay.
+            No endless searching or wandering the streets. Compare live distance, watch video tours, check rent rates, and contact managers in a flash.
           </p>
         </div>
 

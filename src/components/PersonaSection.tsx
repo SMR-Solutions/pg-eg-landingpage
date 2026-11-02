@@ -54,11 +54,11 @@ export const PersonaSection: React.FC = () => {
 
               <div className="space-y-3.5 pt-2">
                 {[
-                  "Zero brokerage fee — deal directly with the building manager",
-                  "Verified photos of real rooms, washrooms, and balconies",
-                  "Clear breakdown of food menus, laundry, and WiFi speed",
-                  "One-tap GPS navigation directly to the PG entrance gate",
-                  "Safe ladies PGs with biometric access and warden support",
+                  "Exact walking distance & 1-tap Google Maps directions to the gate",
+                  "Live location videos & authentic photos of rooms and washrooms",
+                  "Direct PG manager phone & WhatsApp contact for instant confirmation",
+                  "Transparent rent rates for 1, 2, 3, and 4 sharing room options",
+                  "Verified amenities: 3-times daily meals, high-speed WiFi & CCTV safety",
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start gap-3">
                     <div className="w-5 h-5 rounded-full bg-[#2dc653]/20 text-[#2dc653] flex items-center justify-center shrink-0 mt-0.5">
